@@ -5,4 +5,4 @@ git rm --cached gitCommands.txt
 git commit
 
 git log
-git show
+git show <commit-id>
