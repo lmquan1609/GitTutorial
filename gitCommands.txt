@@ -17,3 +17,6 @@ git merge
 
 git reset --soft <commit_id>// reset to after adding of the following commit
 git reset --mixed <commit_id>// reset to before adding of the following commit
+git reset --hard <commit_id>// reset to this commit
+
+git revert <commit_id> // revert the change of this commit and retain all changes of other commits
