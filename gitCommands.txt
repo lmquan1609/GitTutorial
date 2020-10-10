@@ -6,3 +6,6 @@ git commit
 
 git log
 git show <commit-id>
+git diff // after modifying the file which is committed
+git restore <file> // to discard changes in working directory
+git restore --staged <file> // to unstage the added changes
