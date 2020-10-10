@@ -9,5 +9,11 @@ git show <commit-id>
 git diff // after modifying the file which is committed
 git restore <file> // to discard changes in working directory
 git restore --staged <file> // to unstage the added changes
+
+git branch
 git checkout -b feature/dog-class
+git branch -D feature/dog-class
 git merge
+
+git reset --soft <commit_id>// reset to after adding of the following commit
+git reset --mixed <commit_id>// reset to before adding of the following commit
