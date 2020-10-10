@@ -6,5 +6,3 @@ Dog.prototype.eat = function (cat) {
 };
 
 module.exports = Dog;
-// add more commit
-// add more commit number 2
