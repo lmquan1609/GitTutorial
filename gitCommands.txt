@@ -3,3 +3,6 @@ git status
 git add
 git rm --cached gitCommands.txt
 git commit
+
+git log
+git show
