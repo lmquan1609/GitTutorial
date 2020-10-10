@@ -7,3 +7,4 @@ Dog.prototype.eat = function (cat) {
 
 module.exports = Dog;
 // Add more commit
+// Add one more commit to test the git revert
