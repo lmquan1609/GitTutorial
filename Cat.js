@@ -3,11 +3,7 @@ function Cat() {
 }
 
 Cat.prototype.eat = function (mouse) {
+    this.stomach.push(mouse);
 };
 
-// THis is the text to add more
-// More text is added
-
 module.exports = Cat;
-
-// THis is the text to distinguish between revert
